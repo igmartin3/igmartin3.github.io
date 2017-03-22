@@ -32,3 +32,11 @@ a {
 .spaceSm {
     margin-top: 2.5%;
 }
+
+.mainBack { 
+    background: url(images/mainBgrd.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
