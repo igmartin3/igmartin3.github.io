@@ -8,7 +8,8 @@ body {
 }
 
 p {
-   font-size: 1.8em;
+    font-family: "Nunito", sans-serif; 
+    font-size: 1.8em;
 }
 
 .backColor {
@@ -16,10 +17,20 @@ p {
 }
 
 h1 {
+    font-family: "Nixie One", sans-serif;
     font-size: 4em;
 }
 
+h2 {
+    font-family: "Nunito", sans-serif;
+}
+
+h4 {
+    font-family: "Nunito", sans-serif;
+}
+
 .navText a {
+    font-family: "Nunito", sans-serif;
     font-size: 1.8em;
     color: #cccccc;
 }
@@ -34,7 +45,7 @@ h1 {
 }
 
 .mainBack { 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/mainBgrd.jpg) no-repeat center center fixed; 
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/mainBgrd.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -67,6 +78,20 @@ h1 {
     background-size: cover;
 }
 
+.printStoryThree {
+    height: 550px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/printStory3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .vertAlign {
-    margin-top: 150px;
+    margin-top: 200px;
+}
+
+.printText {
+    color: white;
 }
